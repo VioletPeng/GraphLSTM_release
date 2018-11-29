@@ -3,7 +3,7 @@
 This is the data and source code of the papers:
 
 **Cross-Sentence N-ary Relation Extraction with Graph LSTMs**
-Nanyun Peng, Hoifung Poon, Chris Quirk, Kristina Toutanova and Wen-tau Yih  
+Nanyun Peng, Hoifung Poon, Chris Quirk, Kristina Toutanova and Wen-tau Yih 
 *Transactions of the Association for Computational Linguistics*, Vol 5, 2017
 
 If you use the code, please kindly cite the following bibtex:
@@ -19,20 +19,35 @@ If you use the code, please kindly cite the following bibtex:
 
 ## Data
 File system hierarchy:  
-data/  
-    drug_gene_var/  
-        0/  
-            data_graph  
-            sentences_2nd  
-            graph_arcs  
-        1/  
-        2/  
-        3/  
-        4/  
-    drug_var/  
-        the same structure as in drug_gene_var  
-    drug_gene/  
-        the same structure as in drug_gene_var  
+
+data/    
+
+    drug_gene_var/    
+
+        0/    
+
+            data_graph    
+
+            sentences_2nd   
+ 
+            graph_arcs    
+
+        1/    
+
+        2/    
+
+        3/    
+
+        4/    
+
+    drug_var/   
+ 
+        the same structure as in drug_gene_var    
+
+    drug_gene/   
+ 
+        the same structure as in drug_gene_var    
+
 
 ### Source attribution: 
 The full information of the instances are contained in the file "data_graph", it's a json format file containing information such as PubMed articleID, paragraph number, sentence number, and the information about the tokens including part-of-speech tags, dependencies, etc. produced by Stanford coreNLP tool. 
