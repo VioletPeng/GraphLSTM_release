@@ -19,20 +19,21 @@ If you use the code, please kindly cite the following bibtex:
 
 ## Data
 File system hierarchy:
-data/
-    drug_gene_var/
-        0/
-            data_graph
-            sentences_2nd
-            graph_arcs
-        1/
-        2/
-        3/
-        4/
-    drug_var/
-        the same structure as in drug_gene_var
-    drug_gene/
-        the same structure as in drug_gene_var
+data/ 
+    drug_gene_var/ 
+        0/ 
+            data_graph 
+            sentences_2nd 
+            graph_arcs 
+        1/ 
+        2/ 
+        3/ 
+        4/ 
+    drug_var/ 
+        the same structure as in drug_gene_var 
+    drug_gene/ 
+        the same structure as in drug_gene_var 
+
 ### Source attribution: 
 The full information of the instances are contained in the file "data_graph", it's a json format file containing information such as PubMed articleID, paragraph number, sentence number, and the information about the tokens including part-of-speech tags, dependencies, etc. produced by Stanford coreNLP tool. 
 
@@ -43,9 +44,9 @@ the-original-sentences<TAB>indices-to-the-first-entity(drug)<TAB>indices-to-the-
 
 The "graph_arcs" file contains the information of the dependencies between the words, including time sequence adjacency, syntactic dependency, and discourse dependency. The format is:
 
-dependencies-for-node-0<WHITESPACE>dependencies-for-node-1...
-dependencies-for-node-n = dependency-0,,,dependency-1...
-dependency-n = dependency-type::dependent-node
+dependencies-for-node-0<WHITESPACE>dependencies-for-node-1... 
+dependencies-for-node-n = dependency-0,,,dependency-1... 
+dependency-n = dependency-type::dependent-node 
 
 ## Experiments
 To reproduce the results in our paper, the script ./scripts/batch_run_lstm.sh contains the command for running all the cross-validation folds for both drug-gene-variant triple and drug-variant binary relations.

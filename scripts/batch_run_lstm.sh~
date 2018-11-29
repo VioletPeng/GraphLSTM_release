@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in {0..4}; do
+    echo ${i}
+    qsub -q g.q -l "gpu=1,h=b*" run_lstm.sh ${i} ${1}Relation gpu #WeightedGraphLSTM
+    qsub -q g.q -l "gpu=1,h=b*" run_drug_var.sh ${i} ${1}Relation gpu  #WeightedGraphLSTM
+done
