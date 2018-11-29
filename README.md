@@ -1,6 +1,6 @@
 # Cross-Sentence N-ary Relation Extraction with Graph LSTMs 
 
-This is the [data](https://drive.google.com/open?id=1Jgw6A08nh-4umCV7tfqQ6HFg7mtDwo67) and source code of the papers:
+This is the [data](https://drive.google.com/drive/folders/1Jgw6A08nh-4umCV7tfqQ6HFg7mtDwo67?usp=sharing) and source code of the papers:
 
 **Cross-Sentence N-ary Relation Extraction with Graph LSTMs**
 Nanyun Peng, Hoifung Poon, Chris Quirk, Kristina Toutanova and Wen-tau Yih 
