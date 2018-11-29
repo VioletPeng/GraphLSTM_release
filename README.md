@@ -20,33 +20,20 @@ If you use the code, please kindly cite the following bibtex:
 ## Data
 File system hierarchy:  
 
-data/    
-
-    drug_gene_var/    
-
-        0/    
-
-            data_graph    
-
-            sentences_2nd   
- 
-            graph_arcs    
-
-        1/    
-
-        2/    
-
-        3/    
-
-        4/    
-
-    drug_var/   
- 
-        the same structure as in drug_gene_var    
-
-    drug_gene/   
- 
-        the same structure as in drug_gene_var    
+- data/    
+    - drug_gene_var/    
+        - 0/    
+            - data_graph    
+            - sentences_2nd   
+            - graph_arcs    
+        - 1/    
+        - 2/    
+        - 3/    
+        - 4/    
+    - drug_var/   
+        - the same structure as in drug_gene_var    
+    - drug_gene/   
+        - the same structure as in drug_gene_var    
 
 
 ### Source attribution: 
